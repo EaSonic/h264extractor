@@ -201,7 +201,7 @@ do
                 packet_count = packet_count + 1
                 
                 for i, payload in ipairs(payloadTable) do
-		    if i == 1  then
+		    if i == 1 then
                         on_h264_rtp_payload(seqTable[1], payload)
 		    end
                 end
